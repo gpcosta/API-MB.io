@@ -5,14 +5,14 @@ I made it using Java 9.0.4, Maven 3.5.2 and Spring Boot (1.5.10.RELEASE - see po
 
 ## Dependencies
 
-Spring Book;
-JSON simple: https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple;
+Spring Book;<br>
+JSON simple: https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple;<br>
 JUnit: https://mvnrepository.com/artifact/junit/junit
 
 ## How to build and run my application
 
 * After all setup (install Java and Maven), open command line on Windows or konsole in Linux and position yourself in API_MB/app
-* Then type: `mvn spring-boot:run (-Dfile=path/to/json)`
+* Then type: `mvn spring-boot:run (-Dfile=path/to/json)`<br>
 <i>Note: the file parameter is optional. If you want to start with the "dataset.json" default, there is no need to add this parameter.</i>
 * And voilá, the API is running
 
@@ -30,7 +30,7 @@ All the responses have a 'result', a 'code' and a 'status'.
 <b>Result</b> - this is the field that will have the result you asked for
 
 <b>Code</b> - will have an HTTP code. It means that if you received a <300 code, doesn't occur any error.
-    All codes possible in this API:
+    All codes possible in this API:<br>
     - [200] - Everything is fine<br>
     - [201] - An object was created and you will receive it<br>
     - [204] - The search that you made doesn't have any result<br>
@@ -300,5 +300,5 @@ I think that when it is requested to the API to give the dealer that has a vehic
 
 ## Additional Info
 
-This API was constructed based on one example of the Spring tutorial. The code in src/main/java/app/Geometry/Polygon.java (function contains) can be found in this site: https://wrf.ecse.rpi.edu//Research/Short_Notes/pnpoly.html.
+This API was constructed based on one example of the Spring tutorial (https://spring.io/guides/gs/rest-service/). The code in src/main/java/app/Geometry/Polygon.java (function contains) can be found in this site: https://wrf.ecse.rpi.edu//Research/Short_Notes/pnpoly.html.
 My unit tests only evaluate the main functions of each class.
