@@ -5,20 +5,20 @@ I made it using Java 9.0.4, Maven 3.5.2 and Spring Boot (1.5.10.RELEASE - see po
 
 ## Dependencies
 
-Spring Book;<br>
-JSON simple: https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple;<br>
+Spring Book<br>
+JSON simple: https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple<br>
 JUnit: https://mvnrepository.com/artifact/junit/junit
 
 ## How to build and run my application
 
-* After all setup (install Java and Maven), open command line on Windows or konsole in Linux and position yourself in API_MB/app
+* After all setup (install Java and Maven), open command line on Windows or konsole in Linux and position yourself in the app folder
 * Then type: `mvn spring-boot:run (-Dfile=path/to/json)`<br>
 <i>Note: the file parameter is optional. If you want to start with the "dataset.json" default, there is no need to add this parameter.</i>
 * And voilá, the API is running
 
 ## How to run my tests
 
-* Open command line on Windows or konsole in Linux and position yourself in API_MB/app
+* Open command line on Windows or konsole in Linux and position yourself in the app folder
 * Then type: `mvn test`
 
 ## API documentation
